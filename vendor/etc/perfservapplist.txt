@@ -1,0 +1,25 @@
+CMD_SET_CPU_CORE_MIN com.imangi.templerun2 3
+CMD_SET_CPU_CORE_MIN com.transsion.phoenix 1
+CMD_SET_CPU_CORE_MAX com.transsion.phoenix 4
+CMD_SET_CLUSTER_CPU_FREQ_MIN com.transsion.phoenix 0  299000
+CMD_SET_CLUSTER_CPU_FREQ_MAX com.transsion.phoenix 0  1040000
+CMD_SET_CPU_FREQ_MIN com.transsion.phoenix 299000
+CMD_SET_CPU_FREQ_MAX com.transsion.phoenix 1040000
+CMD_SET_CPU_CORE_MIN com.tencent.mm 1
+CMD_SET_CPU_CORE_MAX com.tencent.mm 4
+CMD_SET_CLUSTER_CPU_FREQ_MIN com.tencent.mm 0  299000
+CMD_SET_CLUSTER_CPU_FREQ_MAX com.tencent.mm 0  1040000
+CMD_SET_CPU_FREQ_MIN com.tencent.mm 299000
+CMD_SET_CPU_FREQ_MAX com.tencent.mm 1040000
+CMD_SET_CPU_CORE_MIN com.tencent.mobileqq 1
+CMD_SET_CPU_CORE_MAX com.tencent.mobileqq 4
+CMD_SET_CLUSTER_CPU_FREQ_MIN com.tencent.mobileqq 0  299000
+CMD_SET_CLUSTER_CPU_FREQ_MAX com.tencent.mobileqq 0  1040000
+CMD_SET_CPU_FREQ_MIN com.tencent.mobileqq 299000
+CMD_SET_CPU_FREQ_MAX com.tencent.mobileqq 1040000
+CMD_SET_CPU_CORE_MIN com.android.mms 1
+CMD_SET_CPU_CORE_MAX com.android.mms 2
+CMD_SET_CLUSTER_CPU_FREQ_MIN com.android.mms 0  299000
+CMD_SET_CLUSTER_CPU_FREQ_MAX com.android.mms 0  1040000
+CMD_SET_CPU_FREQ_MIN com.android.mms 299000
+CMD_SET_CPU_FREQ_MAX com.android.mms 1040000
