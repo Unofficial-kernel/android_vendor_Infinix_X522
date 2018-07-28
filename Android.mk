@@ -47,5 +47,23 @@ LOCAL_MULTILIB = 32
 LOCAL_SHARED_LIBRARIES_32 = libdpframework
 LOCAL_SRC_FILES_32 = libstagefright_color_conversion/libstagefright_color_conversion_32.a
 include $(BUILD_PREBUILT)
+ 
+include $(CLEAR_VARS)
+LOCAL_MODULE := YahooWeatherProvider
+LOCAL_SRC_FILES := app/$(LOCAL_MODULE).apk
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_SUFFIX := .apk
+LOCAL_MODULE_CLASS := APPS
+LOCAL_CERTIFICATE := PRESIGNED
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := KernelAdiutor
+LOCAL_SRC_FILES := app/$(LOCAL_MODULE).apk
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_SUFFIX := .apk
+LOCAL_MODULE_CLASS := APPS
+LOCAL_CERTIFICATE := PRESIGNED
+include $(BUILD_PREBUILT)
 
 endif
